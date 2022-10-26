@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Transforms</title>
+   <style>
+      .container{
+         background-color: red;
+         height: 455px;
+      }
+      .box{
+         border: 2px solid black;
+         /* transform: translate(134px, 56px) rotate(0.5turn); */
+         /* transform-origin: 0; */
+         /* transform: scale(2,3); */
+         /* transform: scale(8); */
+
+      }
+      img:hover{
+         width: 56px;
+      }
+      img{
+         width: 146px;
+         height: 355px;
+         /* transition-property: width; */
+         /* transition-duration: 2s; */
+         /* transition-delay: 3s; */
+         /* transition-timing-function: ease-in; */
+         transition: width 1s ease-in-out, height 4s ease-in;
+      }
+
+   </style>
+   <script>
+      btn.addEventListener("click", ()=>{
+         myImage.style.width= "546px"
+      })
+   </script>
+</head>
+
+<body>
+   <div class="container">
+      <div class="box">
+         <!-- THIS IS TRANSFORMS----Aliquam quaerat molestias quis veritatis eaque. Assumenda?  praesentium libero, illum quidem! menda corporis.25 -->
+         <img src="tree.jpg" alt="Big Tree">
+         <button id="btn">Toggle</button>
+
+      </div>
+   </div>
+</body>
+</html>

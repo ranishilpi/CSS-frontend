@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            background: blue;
+            color: white;
+            border:8px solid black;
+            margin: 14px 8px 15px 2px;
+            padding: 13px;
+        }
+        .content{
+            height: 23px;
+            width: 345px;
+            background: red;
+            color: white;
+            margin: 3px;
+            padding: 13px;
+            /* border: 4px solid black; */
+            border-width: 7px;
+            border-style: dashed;
+            border-color: blueviolet;
+            border-radius: 9px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        This is CSS box model
+    </div>
+    <div id="box">
+        This is box id
+    </div>
+</body>
+</html>
